@@ -9,9 +9,24 @@
 <body>
     <h1>hello world</h1>
     <div>
-
+     hello world2
     <?php 
-    Echo "hello BABY"
+
+    $first_name = "umang";
+    $last_name = "vansh";
+    echo $first_name,$last_name;
+    Echo "hello BABY";
+    <?php  
+function add(...$nums) {  
+    $sum = 0;  
+    foreach ($nums as $n) {  
+        $sum += $n;  
+    }  
+    return $sum;  
+} 
+echo add(1, 2, 3, 4);  
+?>  
+    
     ?>
     </div>
 </body>

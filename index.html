@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP PROJECT</title>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to PHP form</h1>
+
+      <form method="index.php" method="post">
+        <label>Name</label>
+        <input
+          type="text"
+          placeholder="Enter your name here"
+          id="name"
+          name="name"
+        />
+
+        <label>Age</label>
+        <input
+          type="number"
+          placeholder="Enter your age here"
+          id="age"
+          name="age"
+        />
+
+        <label>Gender</label>
+        <input
+          type="text"
+          placeholder="Enter your gender here"
+          id="gender"
+          name="gender"
+        />
+
+        <label>Description</label>
+        <textarea
+          name="desc"
+          id="desc"
+          cols="30"
+          rows="10"
+          placeholder="Enter your other information here"
+        ></textarea>
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
